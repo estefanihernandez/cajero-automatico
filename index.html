@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="principal">
+        <!-- tarjeta tomada de bootstrap -->
+        
+            <div class="card-body">
+                <h5 class="card-title">Su banco de confianza</h5>
+                <div id="seccionUser">
+                    <label for="username">Username:</label>
+                    <input type="text" id="usuario" name="username">
+                    <label for="pwd">Password:</label>
+                    <input type="password" id="password" name="pwd">
+                    <button id="btn-ingresar">Ingresar</button>
+                </div>
+                <div id="seccionOperacion">
+                    <label for="operacion">Elegir operacion</label>
+                    <select name="operacion" id="operacion1">
+                        <option value="1">Deposito</option>
+                        <option value="2">Retiro</option>
+                        <option value="3">Ninguna</option>
+                    </select>
+                    
+                    <hr>
+                    <label for="etimonto" id="etiqueta">Monto:</label>
+                    <input type="number" id="monto" name="etimonto">
+                    <a href="#" id="btnEjecucion" class="btn btn-primary">precione aqui</a>
+
+                    <br><br>
+                    <p id="total">Su saldo es de: $540</p>
+                </div>
+
+                
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+    <script src="index.js"></script>
+</body>
+</html>
